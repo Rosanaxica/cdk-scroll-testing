@@ -1,0 +1,5 @@
+<cdk-virtual-scroll-viewport itemSize="18" style="height:80vh" (scrolledIndexChange)="getNewData()">
+  <div *cdkVirtualFor="let item of list">{{item}}</div>
+  </cdk-virtual-scroll-viewport>
+
+{{ changeLog}}
